@@ -6,7 +6,7 @@ from .script import url_to_image, get_dominant_color, get_hex_code
 # Create your views here.
 class GetColourAPIView(APIView):
     def get(self, request):
-        url = request.data["url"]
+        url = request.query_params.get('url', None)
         img = url_to_image(url)
         colours = get_dominant_color(img)
         dom_code = get_hex_code(colours)

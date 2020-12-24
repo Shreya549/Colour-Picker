@@ -40,7 +40,8 @@ def get_hex_code(colours):
     G = round(colours[1])
     R = round(colours[2])
 
-    # formatting it to get it in the correct format Eg: #FF00FF
-    code = '#%02x%02x%02x' % (R, G, B).upper()
 
-    return (code)
+    # formatting it to get it in the correct format Eg: #FF00FF
+    code = '#%02x%02x%02x' % (R, G, B)
+
+    return (code.upper())
