@@ -22,10 +22,10 @@ A Rest API to get the dominant colour and colour of the border of any image from
   </thead>
 <tbody>
  <tr>
-  <td align="center" width="20%"> <img height=60px src = https://github.com/Shreya549/Colour-Picker/blob/main/%2305023C.png width = 100%/> <br>
+  <td align="center" width="20%"> <img height=60px src = https://github.com/Shreya549/Colour-Picker/blob/main/assets/%2305023C.png width = 100%/> <br>
    #05023C</td>
   
-  <td align="center" width="20%"> <img height=60px src = https://github.com/Shreya549/Colour-Picker/blob/main/%2305023C.png width = 100%/> <br>
+  <td align="center" width="20%"> <img height=60px src = https://github.com/Shreya549/Colour-Picker/blob/main/assets/%2305023C.png width = 100%/> <br>
 #05023C</td>
 </tr>
 </tbody>
