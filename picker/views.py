@@ -10,7 +10,7 @@ class GetColourAPIView(APIView):
         url = url.replace(' ', '%20')
         img = url_to_image(url)
 
-        x,y,a,b = 0,0,1000,10
+        x,y,a,b = 0,0,1000,50
         crop_img = img[y:y+b, x:x+a]
 
         colours = get_dominant_color(img)
